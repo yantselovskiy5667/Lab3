@@ -13,8 +13,11 @@
 - [Алгоритм](#2-алгоритм)
 - [Программа](#3-программа)
 - [Анализ правильности решения](#4-анализ-правильности-решения)
-  
-Класс "Заказ блюда":
+
+
+### 3) Программа
+### 3.1) "Заказ блюда"
+```java
 public class Kitchen{
     private String name;
     private double price;
@@ -47,3 +50,6 @@ public class Kitchen{
         return String.format("%.s : %.2f руб., %d порций", name,price,countfood);
     }
 }
+```
+### 3.2) "Создать меню"
+
